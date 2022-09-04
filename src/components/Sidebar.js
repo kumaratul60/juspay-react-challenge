@@ -7,6 +7,7 @@ export default function Sidebar({ handleClick }) {
   return (
     <div className="w-60 flex-none h-full overflow-y-auto flex flex-col items-start p-2 border-r border-gray-200">
       {/* Events */}
+
       <div className="font-bold"> {"Events"} </div>
       <Card
         handleClick={handleClick}
@@ -29,6 +30,7 @@ export default function Sidebar({ handleClick }) {
       </Card>
 
       {/* Motion */}
+
       <div className="font-bold"> {"Motion"} </div>
       <Card
         handleClick={handleClick}
